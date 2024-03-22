@@ -1,0 +1,37 @@
+    axios({
+        method: 'get',
+        url: baseURL + "hired/3814"
+    })
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+    return <span></span>
+}
+
+const TestPage = () => {
+  return (
+    <div>test
+        <GetData />
+    </div>
+  )
+}
+
+export default TestPage;
+
+
+eURL + "hired/3814"
+    })
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+    return <span></span>
+}
+
+const TestPage = () => {
+  return (
+    <div>test
+        <GetData />
+    </div>
+  )
+}
+
+export default TestPage;
+
